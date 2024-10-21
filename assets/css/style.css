@@ -531,7 +531,7 @@ main {
   background: var(--border-gradient-onyx);
   width: 100%; /* Take full width */
   border-radius: 14px;
-  padding: 20px; /* Adjust padding based on the desired internal space */
+  /*padding: 20px; Adjust padding based on the desired internal space */
   box-shadow: var(--shadow-2);
   z-index: 1;
   margin: 0; /* Ensure no margin reduces width */
