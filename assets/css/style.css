@@ -333,7 +333,6 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 50%; /* Circular avatar */
   overflow: hidden; /* Ensure content fits within the rounded corners */
   display: flex;
   justify-content: center;
