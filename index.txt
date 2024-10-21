@@ -32,10 +32,7 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-
+Recent UC Berkeley graduate with hands-on experience in software development, testing, and project management. I’ve worked in Agile teams, contributing to platform development at Stryker and emergency project documentation at Caltrans. I’m passionate about solving problems, improving processes, and delivering quality results. Currently seeking software engineering opportunities to apply my technical skills and drive impactful solutions.
 
 ## service
 
@@ -93,8 +90,8 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
+University of California, Berkeley
+2022 — 2024
 Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
 
 New york academy of art
