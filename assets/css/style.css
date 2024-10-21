@@ -1353,17 +1353,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { 
-    border-radius: 50%; /* Circular avatar */
-    padding: 10px; /* Add padding around the avatar */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-    width: 100px; /* Adjust size */
-    height: 100px; /* Keep it square for circular shape */
-    overflow: hidden; /* Ensure content fits within the rounded corners */
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-  }
+  .avatar-box { border-radius: 18px; }
 
   .avatar-box img { width: 120px; }
 
