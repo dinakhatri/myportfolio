@@ -518,18 +518,25 @@ main {
 
 .service-list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; /* Ensure it's still single-column */
   gap: 20px;
+  width: 100%;    /* Full width of the parent container */
+  margin: 0;      /* Remove any default margins */
+  padding: 0;     /* Remove padding if necessary */
 }
+
 
 .service-item {
   position: relative;
   background: var(--border-gradient-onyx);
-  width: 100%;
+  width: 100%; /* Take full width */
   border-radius: 14px;
+  padding: 20px; /* Adjust padding based on the desired internal space */
   box-shadow: var(--shadow-2);
   z-index: 1;
+  margin: 0; /* Ensure no margin reduces width */
 }
+
 
 .service-item::before {
   content: "";
