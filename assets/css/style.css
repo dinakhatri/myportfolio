@@ -518,7 +518,7 @@ main {
 
 .service-list {
   display: grid;
-  grid-template-columns: 2fr; /* Ensure it's still single-column */
+  grid-template-columns: 1fr; /* Ensure it's still single-column */
   gap: 20px;
   width: 100%;    /* Full width of the parent container */
   margin: 0;      /* Remove any default margins */
@@ -1734,7 +1734,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* service */
 
   .service-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px 25px;
   }
 
