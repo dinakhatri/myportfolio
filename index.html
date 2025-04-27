@@ -451,42 +451,116 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active">
-              <a href="#">
+            <li class="project-item active" 
+              data-project-title="Movie Database Web App" 
+              data-project-description="Built a full-stack web application for adding, editing, deleting, searching, and filtering movies.
+                                        Implemented user authentication and authorization using Devise in Ruby on Rails.
+                                        Designed RESTful APIs and optimized database operations with PostgreSQL.
+                                        Developed responsive and dynamic user interfaces using HTML, CSS, and JavaScript.
+                                        Applied clean MVC architecture and performance optimization techniques to improve user experience." 
+              data-project-skills="Ruby on Rails, PostgreSQL, JavaScript, REST APIs">
 
+              <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Bill Splitting iOS App</h3>
-
-                <p class="project-category">iOS development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/movie_icon.png" alt="Movie Database Web App" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Movie Database Web App</h3>
-
-                <p class="project-category">Web development</p>
-
+                <p class="project-category">Web Development</p>
               </a>
             </li>
 
+            <li class="project-item active" 
+              data-project-title="Bill Splitting iOS App" 
+              data-project-description="Developed an iOS mobile app to manage shared expenses among groups.
+                                        Enabled users to create groups, add members, record shared bills, and track balances.
+                                        Integrated Firebase Firestore for real-time synchronization across multiple devices.
+                                        Designed intuitive user interfaces using SwiftUI following MVVM architecture.
+                                        Focused on secure authentication, clean data modeling, and offline data resilience." 
+              data-project-skills="Swift, Firebase, iOS Development">
+
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/His-2.png" alt="Bill Splitting App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bill Splitting iOS App</h3>
+                <p class="project-category">iOS Development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" 
+              data-project-title="Secure File Sharing System" 
+              data-project-description="Designed a secure file storage and sharing system resilient to adversarial attacks.
+                                        Implemented user registration, login, secure file storage, file sharing through invitations, and access revocation.
+                                        Applied public key encryption, digital signatures, and authenticated encryption for data security.
+                                        Minimized metadata leakage and enforced robust key management across distributed devices.
+                                        Ensured system integrity against tampering and maintained confidentiality in an untrusted environment." 
+              data-project-skills="Go Programming Language, Public Key Infrastructure (PKI), Secure Systems Design, Cybersecurity">
+
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/filesharing.png" alt="Secure File Sharing System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Secure File Sharing System</h3>
+                <p class="project-category">Cybersecurity</p>
+              </a>
+            </li>
+
+            <li class="project-item active" 
+              data-project-title="Pacman" 
+              data-project-description="Implemented foundational AI algorithms including search strategies (BFS, DFS, A*), multi-agent decision making (Minimax, Expectimax), and reinforcement learning (Q-Learning, Approximate Q-Learning).
+                                        Developed intelligent agents capable of navigating complex environments under uncertainty and adversarial conditions.
+                                        Applied probabilistic inference techniques such as Bayes Nets for reasoning under uncertainty.
+                                        Designed machine learning classifiers using Perceptron and naive Bayes models.
+                                        Focused on algorithmic efficiency, optimization under constraints, and strategic planning in dynamic environments." 
+              data-project-skills="Python, Artificial Intelligence, Search Algorithms, Adversarial Search, Reinforcement Learning, Machine Learning, Probabilistic Reasoning">
+
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/pacman.png" alt="Pacman" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pacman</h3>
+                <p class="project-category">Artificial Intelligence</p>
+              </a>
+            </li>
+
+            <li class="project-item active" 
+              data-project-title="World Generation" 
+              data-project-description="Designed and implemented a 2D tile-based world exploration engine using Java.
+                                        Programmed procedural world generation techniques to create randomized, explorable maps.
+                                        Developed user interaction features including player movement, object interaction, and dynamic world updates.
+                                        Integrated graphical rendering using the StdDraw library for real-time visualization and input handling.
+                                        Managed complexity through modular object-oriented design, ensuring scalable and maintainable code architecture.
+                                        Simulated a real-world software development cycle by iterating through design, testing, and performance reviews." 
+              data-project-skills="Java, Object-Oriented Programming (OOP), Procedural Generation, Graphics Rendering (StdDraw), Event-Driven Programming, Software Engineering">
+
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/worldgen.png" alt="World Generation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">World Generation</h3>
+                <p class="project-category">Game Development</p>
+              </a>
+            </li>
        
 
           </ul>
@@ -519,6 +593,37 @@
       </article>
 
     </div>
+
+
+    <!-- - #PROJECT MODAL -->
+<div class="project-modal-container" data-project-modal-container>
+
+  <div class="overlay" data-project-overlay></div>
+
+  <section class="project-modal">
+
+    <button class="modal-close-btn" data-project-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-content">
+
+      <h4 class="h3 modal-title" data-project-modal-title>Project Title</h4>
+
+      <div data-project-modal-text>
+        <p>Project description will go here.</p>
+      </div>
+
+      <div class="project-modal-skills" data-project-modal-skills>
+        <!-- Skills will appear here -->
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
 
   </main>
 
